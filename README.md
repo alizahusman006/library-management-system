@@ -86,7 +86,17 @@ library-management/
 | `/api/return` | POST | Return a resource |
 | `/api/stats` | GET | Get statistics |
 
-## How to Run
+## 📁 Project Setup
+
+This is a full-stack application with a C++ backend. To run it:
+
+1. Clone this repository
+2. Follow the "How to Run Locally" instructions below
+3. The application will be available at `http://localhost:8080`
+
+**Note:** Due to the C++ backend, this project cannot be hosted on GitHub Pages (which only supports static websites). You must run it locally or deploy to a platform that supports C++ servers like Render.com or Railway.app.
+
+## How to Run Locally
 
 ### Prerequisites
 - GCC/G++ compiler
@@ -179,6 +189,7 @@ BORROWED:
 **Alizah Usman**
 - GitHub: [@alizahusman006](https://github.com/alizahusman006)
 - Email: alizahusman115@gmail.com
+- LinkedIn: [Add your LinkedIn here](https://linkedin.com/in/your-profile)
 
 ## License
 
@@ -191,6 +202,36 @@ This project was built as a 2nd semester OOP assignment to demonstrate:
 - Full-stack development with C++
 - Simple HTTP server implementation
 - Modern web interface design
+
+## Why Not GitHub Pages?
+
+GitHub Pages only hosts **static websites** (HTML, CSS, JavaScript). This project requires a **C++ backend server** to:
+- Process API requests
+- Manage library data
+- Handle file operations
+
+Therefore, this project must be run locally or deployed to a server that supports C++ applications.
+
+## Deployment Options
+
+If you want to deploy this online:
+
+1. **Render.com (Free tier available):**
+   - Fork this repository
+   - Sign up at [render.com](https://render.com)
+   - Create a new "Web Service"
+   - Connect your GitHub repository
+   - Set build command: `cd backend && g++ -std=c++11 -Wall -Wextra -o server server.cpp`
+   - Set start command: `cd backend && ./server`
+   - Deploy!
+
+2. **Railway.app (Free tier available):**
+   - Sign up at [railway.app](https://railway.app)
+   - Create new project from GitHub repo
+   - Deploy with one click
+
+3. **Run Locally (Recommended for testing):**
+   - Follow the instructions above to run on your computer
 
 ---
 
