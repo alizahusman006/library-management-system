@@ -86,7 +86,13 @@ library-management/
 | `/api/return` | POST | Return a resource |
 | `/api/stats` | GET | Get statistics |
 
-## How to Run
+## 🚀 Live Demo
+
+**Try the application now:** [https://library-management-system.onrender.com](https://library-management-system.onrender.com)
+
+*Note: The demo may take a few seconds to load as the server starts up.*
+
+## How to Run Locally
 
 ### Prerequisites
 - GCC/G++ compiler
@@ -179,6 +185,7 @@ BORROWED:
 **Alizah Usman**
 - GitHub: [@alizahusman006](https://github.com/alizahusman006)
 - Email: alizahusman115@gmail.com
+- LinkedIn: [Add your LinkedIn here](https://linkedin.com/in/your-profile)
 
 ## License
 
@@ -191,6 +198,24 @@ This project was built as a 2nd semester OOP assignment to demonstrate:
 - Full-stack development with C++
 - Simple HTTP server implementation
 - Modern web interface design
+
+## Deployment
+
+To deploy this application online:
+
+1. **Using Render.com (Recommended):**
+   - Fork this repository
+   - Sign up at [render.com](https://render.com)
+   - Create a new "Web Service"
+   - Connect your GitHub repository
+   - Set build command: `cd backend && g++ -std=c++11 -Wall -Wextra -o server server.cpp`
+   - Set start command: `cd backend && ./server`
+   - Deploy!
+
+2. **Using Railway.app:**
+   - Sign up at [railway.app](https://railway.app)
+   - Create new project from GitHub repo
+   - Deploy with one click
 
 ---
 
