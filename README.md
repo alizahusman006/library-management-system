@@ -88,7 +88,7 @@ library-management/
 
 ## 🌐 Live Website
 
-**Visit the live demo:** [https://alizahusman006.github.io/library-management-system/](https://alizahusman006.github.io/library-management-system/)
+**Visit:** [https://alizahusman006.github.io/library-management-system/](https://alizahusman006.github.io/library-management-system/)
 
 The website includes:
 - Interactive demo of the library management system
@@ -103,8 +103,6 @@ This is a full-stack application with a C++ backend. To run it:
 1. Clone this repository
 2. Follow the "How to Run Locally" instructions below
 3. The application will be available at `http://localhost:8080`
-
-**Note:** Due to the C++ backend, this project cannot be hosted on GitHub Pages (which only supports static websites). You must run it locally or deploy to a platform that supports C++ servers like Render.com or Railway.app.
 
 ## How to Run Locally
 
@@ -199,7 +197,6 @@ BORROWED:
 **Alizah Usman**
 - GitHub: [@alizahusman006](https://github.com/alizahusman006)
 - Email: alizahusman115@gmail.com
-- LinkedIn: [Add your LinkedIn here](https://linkedin.com/in/your-profile)
 
 ## License
 
@@ -212,27 +209,6 @@ This project was built as a 2nd semester OOP assignment to demonstrate:
 - Full-stack development with C++
 - Simple HTTP server implementation
 - Modern web interface design
-
-## Deployment Options
-
-If you want to deploy this online:
-
-1. **Render.com (Free tier available):**
-   - Fork this repository
-   - Sign up at [render.com](https://render.com)
-   - Create a new "Web Service"
-   - Connect your GitHub repository
-   - Set build command: `cd backend && g++ -std=c++11 -Wall -Wextra -o server server.cpp`
-   - Set start command: `cd backend && ./server`
-   - Deploy!
-
-2. **Railway.app (Free tier available):**
-   - Sign up at [railway.app](https://railway.app)
-   - Create new project from GitHub repo
-   - Deploy with one click
-
-3. **Run Locally (Recommended for testing):**
-   - Follow the instructions above to run on your computer
 
 ---
 
