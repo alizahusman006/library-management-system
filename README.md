@@ -86,6 +86,16 @@ library-management/
 | `/api/return` | POST | Return a resource |
 | `/api/stats` | GET | Get statistics |
 
+## 🌐 Live Website
+
+**Visit the live demo:** [https://alizahusman006.github.io/library-management-system/](https://alizahusman006.github.io/library-management-system/)
+
+The website includes:
+- Interactive demo of the library management system
+- Full project documentation
+- OOP concepts showcase
+- Responsive design
+
 ## 📁 Project Setup
 
 This is a full-stack application with a C++ backend. To run it:
