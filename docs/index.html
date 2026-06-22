@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System - Alizah Usman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-book"></i>
+                <span>Library Management System</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#demo" class="nav-link">Live Demo</a></li>
+                <li><a href="#tech" class="nav-link">Tech Stack</a></li>
+                <li><a href="https://github.com/alizahusman006/library-management" target="_blank" class="nav-link">
+                    <i class="fab fa-github"></i> View Code
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                📚 Library Management System
+            </h1>
+            <p class="hero-subtitle">
+                A full-stack application demonstrating Object-Oriented Programming with C++ backend and modern web frontend
+            </p>
+            <div class="hero-buttons">
+                <a href="#demo" class="btn btn-primary">
+                    <i class="fas fa-play"></i> Try Live Demo
+                </a>
+                <a href="https://github.com/alizahusman006/library-management" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <i class="fas fa-book"></i>
+                <h3>Books, Magazines & DVDs</h3>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3>Member Management</h3>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-exchange-alt"></i>
+                <h3>Borrow/Return System</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">✨ Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <h3>Add Resources</h3>
+                    <p>Add Books, Magazines, and DVDs with unique attributes like ISBN, issue numbers, and duration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Register Members</h3>
+                    <p>Register new library members with auto-generated IDs and track their borrowing history.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding"></i>
+                    </div>
+                    <h3>Borrow & Return</h3>
+                    <p>Seamless borrowing and returning system with real-time availability tracking.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Filter & Search</h3>
+                    <p>Filter resources by type (Books, Magazines, DVDs) and search functionality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Late Fee Calculation</h3>
+                    <p>Automatic late fee calculation based on resource type (Books: Rs. 5/day, Magazines: Rs. 3/day, DVDs: Rs. 10/day).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-save"></i>
+                    </div>
+                    <h3>Data Persistence</h3>
+                    <p>All data is saved to file and automatically loaded on application startup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">🚀 Live Demo</h2>
+            <p class="section-subtitle">Try the application right here! This demo uses your browser's localStorage to save data.</p>
+            <div class="demo-container">
+                <iframe src="app.html" class="demo-frame"></iframe>
+            </div>
+            <div class="demo-info">
+                <p><i class="fas fa-info-circle"></i> <strong>Note:</strong> This is a client-side demo. The full version with C++ backend provides better performance and data persistence. <a href="https://github.com/alizahusman006/library-management" target="_blank">View the complete project</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">💻 Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>C++ (OOP)</li>
+                        <li>Socket Programming</li>
+                        <li>REST API</li>
+                        <li>File I/O</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>OOP Concepts</h3>
+                    <ul>
+                        <li>Inheritance</li>
+                        <li>Polymorphism</li>
+                        <li>Encapsulation</li>
+                        <li>Abstraction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OOP Concepts Section -->
+    <section class="oop-section">
+        <div class="container">
+            <h2 class="section-title">🎓 OOP Concepts Demonstrated</h2>
+            <div class="oop-grid">
+                <div class="oop-card">
+                    <h3><i class="fas fa-sitemap"></i> Inheritance</h3>
+                    <p><code>LibraryResource</code> (base class) → <code>Book</code>, <code>Magazine</code>, <code>DVD</code> (derived classes)</p>
+                </div>
+                <div class="oop-card">
+                    <h3><i class="fas fa-magic"></i> Polymorphism</h3>
+                    <p>Virtual functions: <code>getType()</code>, <code>getExtraInfo()</code>, <code>calculateLateFee()</code>, <code>toJSON()</code></p>
+                </div>
+                <div class="oop-card">
+                    <h3><i class="fas fa-lock"></i> Encapsulation</h3>
+                    <p>Private data members with public getter/setter methods in <code>LibraryMember</code> and <code>Library</code> classes</p>
+                </div>
+                <div class="oop-card">
+                    <h3><i class="fas fa-layer-group"></i> Abstraction</h3>
+                    <p>Base class <code>LibraryResource</code> provides abstract interface; <code>Library</code> class manages complex operations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Library Management System | Built with ❤️ by Alizah Usman</p>
+            <div class="social-links">
+                <a href="https://github.com/alizahusman006" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:alizahusman115@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
