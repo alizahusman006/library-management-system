@@ -86,11 +86,15 @@ library-management/
 | `/api/return` | POST | Return a resource |
 | `/api/stats` | GET | Get statistics |
 
-## 🚀 Live Demo
+## 📁 Project Setup
 
-**Try the application now:** [https://library-management-system.onrender.com](https://library-management-system.onrender.com)
+This is a full-stack application with a C++ backend. To run it:
 
-*Note: The demo may take a few seconds to load as the server starts up.*
+1. Clone this repository
+2. Follow the "How to Run Locally" instructions below
+3. The application will be available at `http://localhost:8080`
+
+**Note:** Due to the C++ backend, this project cannot be hosted on GitHub Pages (which only supports static websites). You must run it locally or deploy to a platform that supports C++ servers like Render.com or Railway.app.
 
 ## How to Run Locally
 
@@ -199,11 +203,20 @@ This project was built as a 2nd semester OOP assignment to demonstrate:
 - Simple HTTP server implementation
 - Modern web interface design
 
-## Deployment
+## Why Not GitHub Pages?
 
-To deploy this application online:
+GitHub Pages only hosts **static websites** (HTML, CSS, JavaScript). This project requires a **C++ backend server** to:
+- Process API requests
+- Manage library data
+- Handle file operations
 
-1. **Using Render.com (Recommended):**
+Therefore, this project must be run locally or deployed to a server that supports C++ applications.
+
+## Deployment Options
+
+If you want to deploy this online:
+
+1. **Render.com (Free tier available):**
    - Fork this repository
    - Sign up at [render.com](https://render.com)
    - Create a new "Web Service"
@@ -212,10 +225,13 @@ To deploy this application online:
    - Set start command: `cd backend && ./server`
    - Deploy!
 
-2. **Using Railway.app:**
+2. **Railway.app (Free tier available):**
    - Sign up at [railway.app](https://railway.app)
    - Create new project from GitHub repo
    - Deploy with one click
+
+3. **Run Locally (Recommended for testing):**
+   - Follow the instructions above to run on your computer
 
 ---
 
