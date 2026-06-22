@@ -212,27 +212,4 @@ GitHub Pages only hosts **static websites** (HTML, CSS, JavaScript). This projec
 
 Therefore, this project must be run locally or deployed to a server that supports C++ applications.
 
-## Deployment Options
 
-If you want to deploy this online:
-
-1. **Render.com (Free tier available):**
-   - Fork this repository
-   - Sign up at [render.com](https://render.com)
-   - Create a new "Web Service"
-   - Connect your GitHub repository
-   - Set build command: `cd backend && g++ -std=c++11 -Wall -Wextra -o server server.cpp`
-   - Set start command: `cd backend && ./server`
-   - Deploy!
-
-2. **Railway.app (Free tier available):**
-   - Sign up at [railway.app](https://railway.app)
-   - Create new project from GitHub repo
-   - Deploy with one click
-
-3. **Run Locally (Recommended for testing):**
-   - Follow the instructions above to run on your computer
-
----
-
-**Note**: This is a student project meant for learning purposes. For production use, consider using a proper web framework and database system.
