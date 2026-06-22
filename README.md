@@ -203,15 +203,6 @@ This project was built as a 2nd semester OOP assignment to demonstrate:
 - Simple HTTP server implementation
 - Modern web interface design
 
-## Why Not GitHub Pages?
-
-GitHub Pages only hosts **static websites** (HTML, CSS, JavaScript). This project requires a **C++ backend server** to:
-- Process API requests
-- Manage library data
-- Handle file operations
-
-Therefore, this project must be run locally or deployed to a server that supports C++ applications.
-
 ## Deployment Options
 
 If you want to deploy this online:
