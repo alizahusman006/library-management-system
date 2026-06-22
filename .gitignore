@@ -1,0 +1,21 @@
+# Compiled binaries
+server
+*.exe
+*.out
+
+# Data files
+library_data.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+Makefile
